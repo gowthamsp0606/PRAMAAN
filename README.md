@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # APAAR Sentinel Backend
 
 FastAPI prototype for student enrolment integrity, CSV ingestion, anomaly review, consent-aware verifier workflows, certificate checks, and audit history. The existing SQLite database is retained; application startup only calls SQLAlchemy `create_all` for missing tables and does not migrate or reset existing tables.
@@ -164,3 +165,7 @@ Database migration workflow: after installing requirements, run `alembic upgrade
 ## Database migrations
 
 Before starting the updated application, run `python -m alembic upgrade head` from the backend directory. This records migration history and creates the composite index used for efficient duplicate-enrolment lookups. The migration is safe to run on an existing database and does not delete existing rows.
+=======
+# PRAMAAN
+PRAMAAN is an AI-assisted APAAR student data management platform featuring CSV validation, enrolment anomaly detection, compliance monitoring, secure verification, academic transfers, and role-based institutional dashboards.
+>>>>>>> origin/main
